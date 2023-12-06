@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/">Image Upload</Link>
+          <Link to="/"> Image Upload </Link>
         </li>
       </ul>
     </nav>
