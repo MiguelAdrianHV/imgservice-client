@@ -9,9 +9,6 @@ const Navbar = () => {
         <li>
           <Link to="/">Image Upload</Link>
         </li>
-        {/* <li>
-          <Link to="/images">Images</Link>
-        </li> */}
       </ul>
     </nav>
   );
