@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+/* Upload Screen */
+.uploadScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+
+/* Image Upload */
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #2E4052;
+  height: 300px;
+  width: 500px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+/* Row showing the uploaded image */
+.uploaded-row{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  width: 500px;
+  border-radius: 5px;
+  background-color: #abb4bd;
+  margin: 0 auto;
+}
+
+.upload-content{
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for button */
+.upload__button {
+  background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+.button__style {
+  background-color: #2E4052; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
